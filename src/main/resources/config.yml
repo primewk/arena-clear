@@ -1,1 +1,3 @@
-# A journey of 1,000 lines starts with a single char
+clearInterval: 300 # in seconds
+yLevel: 50
+announcement: "Obsidian clearing in 10 seconds!"

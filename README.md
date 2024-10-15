@@ -2,7 +2,7 @@
 A template for building PaperMC/Spigot Minecraft server plugins!
 
 <!-- TODO: CHANGE ME -->
-[![Test and Release](https://github.com/CrimsonWarpedcraft/plugin-template/actions/workflows/main.yml/badge.svg)](https://github.com/CrimsonWarpedcraft/plugin-template/actions/workflows/main.yml)
+[![Test and Release](https://github.com/arenaclear/plugin-template/actions/workflows/main.yml/badge.svg)](https://github.com/arenaclear/plugin-template/actions/workflows/main.yml)
 
 <!-- TODO: CHANGE ME -->
 [![](https://dcbadge.limes.pink/api/server/5XMmeV6EtJ)](https://discord.gg/5XMmeV6EtJ)
@@ -42,7 +42,7 @@ In order to use this template for yourself, there are a few things that you will
 #### PaperMC Version Mapping
 Here's a list of the PaperMC versions and the versions of this latest compatible version.
 
-| PaperMC | ExamplePlugin |
+| PaperMC | cpvp |
 |---------|---------------|
 | 1.21.1  | 3.12.2+       |
 | 1.21    | 3.12.0        |
@@ -62,9 +62,9 @@ To use this as a template, just use the latest version of this project and updat
 version as needed. See more info on release stability below.
 
 #### Release and Versioning Strategy
-Stable versions of this repo are tagged `vX.Y.Z` and have an associated [release](https://github.com/CrimsonWarpedcraft/plugin-template/releases).
+Stable versions of this repo are tagged `vX.Y.Z` and have an associated [release](https://github.com/arenaclear/plugin-template/releases).
 
-Testing versions of this repo are tagged `vX.Y.Z-RC-N` and have an associated [pre-release](https://github.com/CrimsonWarpedcraft/plugin-template/releases).
+Testing versions of this repo are tagged `vX.Y.Z-RC-N` and have an associated [pre-release](https://github.com/arenaclear/plugin-template/releases).
 
 Development versions of this repo are pushed to the master branch and are **not** tagged.
 
@@ -98,14 +98,14 @@ For more information, see [Discord Message Notify](https://github.com/marketplac
 Update the line below with the name of your plugin.
 
 ```groovy
-rootProject.name = 'ExamplePlugin'
+rootProject.name = 'cpvp'
 ```
 
 ### build.gradle
 Make sure to update the `group` to your package's name in the following section.
 
 ```groovy
-group = "com.crimsonwarpedcraft.exampleplugin"
+group = "com.arenaclear.cpvp"
 ```
 
 Add any required repositories for your dependencies in the following section.
@@ -216,7 +216,7 @@ This build step will also run all checks and tests, making sure your code is cle
 JARs can be found in `build/libs/`.
 
 ## Contributing
-See [CONTRIBUTING.md](https://github.com/CrimsonWarpedcraft/plugin-template/blob/main/CONTRIBUTING.md).
+See [CONTRIBUTING.md](https://github.com/arenaclear/plugin-template/blob/main/CONTRIBUTING.md).
 
 ---
 
